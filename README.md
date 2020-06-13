@@ -1,11 +1,11 @@
-# @chhxin/search-input
+# @chhxin/input-search
 
 ## TODO: 现在还没提到 npm ！！！
 
 ## 安装
 
 ```bash
-npm install --save @chhxin/search-input
+npm install --save @chhxin/input-search
 ```
 
 ## storybook 启动
@@ -21,8 +21,8 @@ npm run storybook
 import React, { Component } from "react";
 import fetch from "unfetch";
 
-import SearchBar from "@chhxin/search-input";
-import "@chhxin/search-input/lib/index.css";
+import SearchBar from "@chhxin/input-search";
+import "@chhxin/input-search/lib/index.css";
 
 const URL = "https://api.npms.io/v2/search/suggestions";
 function NpmSearchExtension(query) {
@@ -57,8 +57,8 @@ class Example extends Component {
 ```jsx
 import React, { Component } from "react";
 import fetch from "unfetch";
-import SearchBar from "@chhxin/search-input";
-import "@chhxin/search-input/lib/index.css";
+import SearchBar from "@chhxin/input-search";
+import "@chhxin/input-search/lib/index.css";
 
 const URL = "https://api.npms.io/v2/search/suggestions";
 function NpmSearchExtension(query) {
@@ -105,8 +105,8 @@ class Example extends Component {
 ```jsx
 import React, { Component } from "react";
 import fetch from "unfetch";
-import SearchBar, { withExtensions } from "@chhxin/search-input";
-import "@chhxin/search-input/lib/index.css";
+import SearchBar, { withExtensions } from "@chhxin/input-search";
+import "@chhxin/input-search/lib/index.css";
 
 function GitHubSearchExtension(query) {
   const prom = fetch(`https://api.github.com/search/repositories?q=${query}`);

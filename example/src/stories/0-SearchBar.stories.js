@@ -1,7 +1,7 @@
 import React from "react";
 import fetch from "unfetch";
-import SearchBar, { withExtensions } from "@chhxin/search-input";
-import "@chhxin/search-input/dist/index.css";
+import SearchBar, { withExtensions } from "@chhxin/input-search";
+import "@chhxin/input-search/dist/index.css";
 
 import ResultsItem from "../components/CustomResultsItem";
 

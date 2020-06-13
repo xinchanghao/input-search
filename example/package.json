@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@chhxin/search-input": "file:..",
+    "@chhxin/input-search": "file:..",
     "unfetch": "^4.1.0"
   },
   "devDependencies": {
