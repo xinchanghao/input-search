@@ -1,8 +1,5 @@
 # @chhxin/search-input
 
-[![GitHub issues](https://img.shields.io/github/issues/ChhXin/search-input)](https://github.com/ChhXin/search-input/issues)
-[![GitHub license](https://img.shields.io/github/license/ChhXin/search-input)](https://github.com/ChhXin/search-input/blob/master/LICENSE)
-
 ## TODO: 现在还没提到 npm ！！！
 
 ## 安装
