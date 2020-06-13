@@ -1,0 +1,15 @@
+.searchBar-results {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.searchBar-results--withMaxHeight {
+  border: 1px solid #eee;
+  overflow: auto;
+}

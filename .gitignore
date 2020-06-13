@@ -1,0 +1,10 @@
+.DS_Store
+.vscode
+
+node_modules
+
+dist
+example/storybook-static
+
+package-lock.json
+
