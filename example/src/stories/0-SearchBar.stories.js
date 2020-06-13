@@ -41,14 +41,18 @@ export default {
 };
 
 export const SearchBarDemo = () => (
-  <SearchBar maxViewableResults={5} extensions={[NpmSearchExtension]} />
+  <SearchBar
+    maxViewableResults={5}
+    extensions={[NpmSearchExtension]}
+    placeholder='npm包 (eg: "babel-plugin-import")'
+  />
 );
 
 const GitHubSearchBar = withExtensions([GitHubSearchExtension])(SearchBar);
 
 export const GitHubSearchBarDemo = () => (
   <GitHubSearchBar
-    placeholder={`github库 (eg: "react")`}
+    placeholder='github库 (eg: "react")'
     maxViewableResults={5}
   />
 );
@@ -57,7 +61,7 @@ export const OptionalRenderDemo = () => (
   <GitHubSearchBar
     maxViewableResults={5}
     render={ResultsItem}
-    placeholder="render自定义了噢..."
+    placeholder="搜一下试试看，render不一样了噢..."
   />
 );
 
@@ -66,7 +70,7 @@ export const ThemeDemo = () => (
     maxViewableResults={5}
     render={ResultsItem}
     theme="dark"
-    placeholder="边框变成黑色了噢..."
+    placeholder="鼠标放上来，边框变成黑色了噢..."
   />
 );
 
